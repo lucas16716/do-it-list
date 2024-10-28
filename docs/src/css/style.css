@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: azure;
+}
+
+header {
+  background: rgb(82, 80, 80);
+  text-align: center;
+}
+
+header .cores-fundo {
+  border: 2px solid red;
+  text-align: right;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+header img {
+  border: 2px solid yellow;
+  max-width: 50%;
+}
+
+main {
+  background-color: azure;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+main .container-add-tasks {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.container-add-tasks input {
+  height: 36px;
+  width: 300px;
+  border: 0.5px solid black;
+  outline: none;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  background: rgb(82, 80, 80);
+}
+
+.container-add-tasks button {
+  height: 37px;
+  width: 95px;
+  margin: -6px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border: 0.5px solid black;
+  outline: none;
+}
+
+main .container-tasks {
+  max-width: 100%;
+  padding: 10px 375px 10px 375px;
+  border: 2px solid red;
+}
+
+main .container-tasks .to-do-list {
+  border: 2px solid black;
+  padding: 50px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(-25deg);
+  }
+
+  40% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  80% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
