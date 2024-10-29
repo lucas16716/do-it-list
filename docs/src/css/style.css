@@ -197,6 +197,7 @@ body.theme-blue {
   main .container-add-tasks button,
   input {
     border-radius: 14px;
+    padding: 5%;
   }
 }
 
