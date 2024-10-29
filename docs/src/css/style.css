@@ -194,11 +194,14 @@ body.theme-blue {
 }
 
 @media (max-width: 480px) {
+  main .container-add-tasks {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   main .container-add-tasks button,
   input {
     border-radius: 14px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 }
 
