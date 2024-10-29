@@ -1,76 +1,147 @@
+/* ESTILO OFICIAL*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
-body {
-  background: azure;
+body.theme-yellow {
+  background: #ffcc00;
+  font-family: "Dongle";
+  font-size: 28px;
 }
 
 header {
-  background: rgb(82, 80, 80);
   text-align: center;
 }
 
 header .cores-fundo {
-  border: 2px solid red;
   text-align: right;
 }
 
-header a {
+header .theme-toggle {
   display: inline-block;
-  text-decoration: none;
-  color: white;
-  border: 2px solid black;
-  margin: 5px;
-  padding: 5px;
+  border: 0.5px solid black;
+  margin: 10px 10px 0 0;
+  background-color: #193c6d; /* Azul para indicar o outro tema */
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+}
+
+header .theme-toggle:hover {
+  box-shadow: #193c6d 0 0 15px;
+  transform: scale(1.1);
 }
 
 header img {
-  border: 2px solid yellow;
-  max-width: 50%;
+  margin: 0;
+  max-width: 37%;
 }
 
 main {
-  background-color: azure;
-  border: 2px solid yellow;
   text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 main .container-add-tasks {
-  border: 2px solid black;
-  padding: 10px;
+  padding: 0 0 15px 0;
 }
 
 .container-add-tasks input {
-  height: 36px;
-  width: 300px;
-  border: 0.5px solid black;
+  height: 34.5px;
+  width: 315px;
+  border: 1.5px solid #117554;
   outline: none;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
-  background: rgb(82, 80, 80);
+  background: #f2f2f2;
+  padding: 5px;
+  font-size: 28px;
+  font-family: "Dongle";
+}
+
+::placeholder {
+  color: #b3b3b3;
+}
+
+.container-add-tasks input:hover {
+  background-color: #deefe0;
 }
 
 .container-add-tasks button {
-  height: 37px;
-  width: 95px;
+  color: black;
+  background: #117554;
+  height: 46.5px;
+  width: 99px;
   margin: -6px;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
-  border: 0.5px solid black;
+  border: 1.5px solid #117554;
   outline: none;
+  cursor: pointer;
+  font-family: "Dongle";
+  font-size: 25px;
 }
 
-main .container-tasks {
-  max-width: 100%;
-  padding: 10px 375px 10px 375px;
-  border: 2px solid red;
+.container-add-tasks button:hover {
+  box-shadow: #117554 0 0 7px;
 }
 
 main .container-tasks .to-do-list {
-  border: 2px solid black;
-  padding: 50px;
+  background: #f2f2f2;
+  border: 2px solid #117554;
+  border-radius: 25px;
+  margin: 0 35%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-sizing: border-box;
+  width: auto;
+}
+
+/* ESTILO PARA O TEMA AZUL*/
+body.theme-blue {
+  background-color: #193c6d;
+  font-family: "Dongle";
+  font-size: 28px;
+}
+
+.theme-blue .theme-toggle {
+  background-color: #ffcc00; /* Amarelo para indicar o outro tema */
+}
+
+.theme-blue .theme-toggle:hover {
+  box-shadow: #ffcc00 0 0 15px;
+  transform: scale(1.1);
+}
+
+.theme-blue header img {
+  content: url("../img/logo-blue-theme.svg"); /* Substitua pelo caminho correto da logo azul */
+}
+
+.theme-blue .container-add-tasks input {
+  background: #f9e9c3;
+  color: black;
+  border-color: #ffcc00;
+}
+
+.theme-blue .container-add-tasks input:hover {
+  background-color: #ffe2a0;
+}
+
+.theme-blue .container-add-tasks button {
+  background: #ffcc00;
+  color: black;
+  border: 1.5px solid #ffcc00;
+}
+
+.theme-blue .container-add-tasks button:hover {
+  box-shadow: #ffcc00 0 0 7px;
+}
+
+.theme-blue .container-tasks .to-do-list {
+  background: #f9e9c3;
+  border-color: #ffcc00;
 }
 
 .github-corner:hover .octo-arm {
@@ -100,6 +171,21 @@ main .container-tasks .to-do-list {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+/* RESPONSIVIDADE*/
+@media (max-width: 768px) {
+  main .container-tasks .to-do-list {
+    margin: 0 9%; /* Diminui a margem lateral em telas menores */
+  }
+
+  main .container-add-tasks button {
+    height: 42px;
+  }
+
+  main .container-add-tasks input {
+    height: 30px;
   }
 }
 
