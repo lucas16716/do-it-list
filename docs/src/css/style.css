@@ -38,6 +38,10 @@ header img {
   max-width: 37%;
 }
 
+header img:hover {
+  transform: scale(1.1);
+}
+
 main {
   text-align: center;
   margin-left: 3%;
@@ -45,7 +49,7 @@ main {
 }
 
 main .container-add-tasks {
-  padding: 0 0 15px 0;
+  padding: 4px 0 15px 0;
 }
 
 .container-add-tasks input {
@@ -181,15 +185,19 @@ body.theme-blue {
 /* RESPONSIVIDADE*/
 @media (max-width: 768px) {
   main .container-tasks .to-do-list {
-    margin: 0 9%; /* Diminui a margem lateral em telas menores */
+    margin: 0 9%;
   }
 
   main .container-add-tasks button {
-    height: 42px;
+    height: 46.5px;
   }
 
   main .container-add-tasks input {
-    height: 30px;
+    height: 35px;
+  }
+
+  header img {
+    max-width: 60%;
   }
 }
 
