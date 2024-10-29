@@ -62,7 +62,7 @@ main .container-add-tasks {
 }
 
 ::placeholder {
-  color: #b3b3b3;
+  color: #a7a7a7;
 }
 
 .container-add-tasks input:hover {
@@ -129,6 +129,10 @@ body.theme-blue {
   background-color: #ffe2a0;
 }
 
+.theme-blue .container-add-tasks ::placeholder {
+  color: #858585;
+}
+
 .theme-blue .container-add-tasks button {
   background: #ffcc00;
   color: black;
@@ -180,6 +184,16 @@ body.theme-blue {
     margin: 0 9%; /* Diminui a margem lateral em telas menores */
   }
 
+  main .container-add-tasks button {
+    height: 42px;
+  }
+
+  main .container-add-tasks input {
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
   main .container-add-tasks button {
     height: 42px;
   }
