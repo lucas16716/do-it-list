@@ -40,12 +40,14 @@ header img {
 
 header img:hover {
   transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 
 main {
   text-align: center;
   margin-left: 3%;
   margin-right: 3%;
+  overflow: auto;
 }
 
 main .container-add-tasks {
@@ -89,7 +91,8 @@ main .container-add-tasks {
 }
 
 .container-add-tasks button:hover {
-  box-shadow: #117554 0 0 7px;
+  box-shadow: #117554 0 0 6px;
+  transition-duration: 0.2s;
 }
 
 main .container-tasks .to-do-list {
@@ -101,6 +104,31 @@ main .container-tasks .to-do-list {
   padding-bottom: 1%;
   box-sizing: border-box;
   width: auto;
+}
+
+footer {
+  background: #117554;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  max-width: 100%;
+  margin-left: 1.5%;
+}
+
+footer h5 {
+  margin-right: 34.5%;
+  max-width: 100%; /* Ajuste o valor conforme necessário */
+  margin: auto;
+}
+
+footer h5 a {
+  color: black;
 }
 
 /* ESTILO PARA O TEMA AZUL*/
@@ -144,12 +172,25 @@ body.theme-blue {
 }
 
 .theme-blue .container-add-tasks button:hover {
-  box-shadow: #ffcc00 0 0 7px;
+  box-shadow: #ffcc00 0 0 6px;
+  transition-duration: 0.2s;
 }
 
 .theme-blue .container-tasks .to-do-list {
   background: #f9e9c3;
   border-color: #ffcc00;
+}
+
+.theme-blue footer {
+  background: black;
+}
+
+.theme-blue footer h5 {
+  color: whitesmoke;
+}
+
+.theme-blue footer h5 a {
+  color: whitesmoke;
 }
 
 .github-corner:hover .octo-arm {
