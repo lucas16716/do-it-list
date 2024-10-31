@@ -251,6 +251,11 @@ body.theme-blue {
   main .container-add-tasks input {
     border-radius: 14px;
   }
+
+  footer h5 {
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media (max-width: 500px) {
