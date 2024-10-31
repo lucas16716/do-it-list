@@ -253,9 +253,9 @@ body.theme-blue {
   }
 
   footer h5 {
-    max-width: 80%;
+    max-width: 50%;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
