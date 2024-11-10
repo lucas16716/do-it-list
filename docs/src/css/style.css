@@ -111,6 +111,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 46px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,6 +126,7 @@ footer h5 {
   margin-right: 34.5%;
   max-width: 100%; /* Ajuste o valor conforme necessário */
   margin: auto;
+  font-weight: normal;
 }
 
 footer h5 a {
