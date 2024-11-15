@@ -55,7 +55,6 @@ main {
   margin-right: 3%;
   overflow: auto;
   flex-grow: 1;
-  margin-bottom: 40px;
 }
 
 main .container-add-tasks {
@@ -63,7 +62,7 @@ main .container-add-tasks {
 }
 
 .container-add-tasks input {
-  height: 35.7px;
+  height: 36.2px;
   width: 315px;
   border: 1.5px solid #117554;
   outline: none;
@@ -107,7 +106,7 @@ main .container-add-tasks {
 main .container-tasks .to-do-list {
   background: #117554;
   border-radius: 25px;
-  margin: 0 35%;
+  margin: 0 35% 0 35%;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -124,6 +123,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   user-select: none;
+  margin-top: 40px;
 }
 
 footer img {
@@ -304,10 +304,12 @@ body.theme-blue {
 /* RESPONSIVIDADE */
 
 @media (max-width: 1500px) {
+  .wrapper {
+    min-height: 67.5vh;
+  }
+
   footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 50px;
   }
 
   main .container-tasks .to-do-list {
