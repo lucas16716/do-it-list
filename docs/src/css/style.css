@@ -63,7 +63,7 @@ main .container-add-tasks {
 }
 
 .container-add-tasks input {
-  height: 36.3px;
+  height: 35.7px;
   width: 315px;
   border: 1.5px solid #117554;
   outline: none;
@@ -305,7 +305,7 @@ body.theme-blue {
 
 @media (max-width: 1500px) {
   footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
@@ -320,28 +320,12 @@ body.theme-blue {
     margin: 0 9%;
   }
 
-  main .container-add-tasks button {
-    height: 46.5px;
-  }
-
-  main .container-add-tasks input {
-    height: 35px;
-  }
-
   header img {
     max-width: 60%;
   }
 }
 
 @media (max-width: 480px) {
-  main .container-add-tasks button {
-    border-radius: 14px;
-  }
-
-  main .container-add-tasks input {
-    border-radius: 14px;
-  }
-
   footer h5 {
     max-width: 50%;
     margin: auto;
