@@ -22,7 +22,7 @@ header .theme-toggle {
   display: inline-block;
   border: 0.5px solid black;
   margin: 10px 10px 0 0;
-  background-color: #193c6d; /* Azul para indicar o outro tema */
+  background-color: #193c6d;
   border-radius: 50%;
   width: 33px;
   height: 33px;
@@ -43,11 +43,19 @@ header img:hover {
   transition-duration: 0.3s;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 51vh;
+}
+
 main {
   text-align: center;
   margin-left: 3%;
   margin-right: 3%;
   overflow: auto;
+  flex-grow: 1;
+  margin-bottom: 40px;
 }
 
 main .container-add-tasks {
@@ -55,13 +63,13 @@ main .container-add-tasks {
 }
 
 .container-add-tasks input {
-  height: 34.5px;
+  height: 36.3px;
   width: 315px;
   border: 1.5px solid #117554;
   outline: none;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
-  background: #f2f2f2;
+  background: #deefe0;
   padding: 5px;
   font-size: 28px;
   font-family: "Dongle";
@@ -72,13 +80,14 @@ main .container-add-tasks {
 }
 
 .container-add-tasks input:hover {
-  background-color: #deefe0;
+  background-color: #c8e6cc;
+  transition-duration: 0.3s;
 }
 
 .container-add-tasks button {
   color: black;
   background: #117554;
-  height: 46.5px;
+  height: 48px;
   width: 99px;
   margin: -6px;
   border-top-right-radius: 14px;
@@ -96,22 +105,21 @@ main .container-add-tasks {
 }
 
 main .container-tasks .to-do-list {
-  background: #f2f2f2;
-  border: 2px solid #117554;
+  background: #117554;
   border-radius: 25px;
   margin: 0 35%;
   padding-top: 1%;
   padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
   box-sizing: border-box;
   width: auto;
 }
 
 footer {
   background: #117554;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   height: 46px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +142,66 @@ footer h5 a {
   color: black;
 }
 
-/* ESTILO PARA O TEMA AZUL*/
+/* ESTILO DAS TASKS ADICIONADAS*/
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #deefe0;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 12px;
+  font-size: 26px;
+  color: black;
+  transition: background 0.3s;
+}
+
+.task-item:hover {
+  background-color: #c8e6cc;
+}
+
+.task-text {
+  flex: 1; /* Ocupa o espaço disponível, mantendo os botões alinhados à direita */
+}
+
+.task-complete,
+.task-delete {
+  margin-left: 8px;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.task-complete:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  box-shadow: #117554 0 0 3px;
+}
+
+.task-delete:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  box-shadow: #d9544f 0 0 3px;
+}
+
+.task-complete {
+  padding: 2.7px 8.6px 2.7px 8.6px;
+  background: #1175549a;
+  font-weight: bold;
+}
+
+.task-delete {
+  padding: 4.5px 10px 4.5px 10px;
+  background-color: #d9544fc0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* ESTILO PARA O TEMA AZUL */
 body.theme-blue {
   background-color: #193c6d;
   font-family: "Dongle";
@@ -180,12 +247,20 @@ body.theme-blue {
 }
 
 .theme-blue .container-tasks .to-do-list {
-  background: #f9e9c3;
-  border-color: #ffcc00;
+  background: #ffcc00;
+}
+
+.theme-blue .task-item {
+  border: none;
+  background-color: #f9e9c3;
+}
+
+.theme-blue .task-item:hover {
+  background-color: #ffe2a0; /* Um leve verde ao passar o mouse */
 }
 
 .theme-blue footer {
-  background: black;
+  background: rgba(0, 0, 0, 0.718);
 }
 
 .theme-blue footer h5 {
@@ -226,7 +301,20 @@ body.theme-blue {
   }
 }
 
-/* RESPONSIVIDADE*/
+/* RESPONSIVIDADE */
+
+@media (max-width: 1500px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  main .container-tasks .to-do-list {
+    margin: 0 30%;
+  }
+}
+
 @media (max-width: 768px) {
   main .container-tasks .to-do-list {
     margin: 0 9%;
@@ -248,7 +336,6 @@ body.theme-blue {
 @media (max-width: 480px) {
   main .container-add-tasks button {
     border-radius: 14px;
-    padding: auto;
   }
 
   main .container-add-tasks input {
