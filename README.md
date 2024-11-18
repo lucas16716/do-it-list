@@ -16,7 +16,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 </p>
 
 
-
 ## <h2>PROJETO</h2>
 <h5>Acesse e confira o projeto em ação:</h5>
 
@@ -30,7 +29,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    </a>
  </div>
 
-###
 
 ## <h2>FUNCIONALIDADES</h2>
 
@@ -47,8 +45,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * 🎨 Animações para ações como adicionar ou remover tarefas.
 
 
-<br>
-
 ## <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
 * HTML5: Estrutura semântica;
@@ -58,7 +54,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * Canva: Logos e mockup.
 
 
-<br>
 
 ## <h2>ESTRUTURAÇÃO DO PROJETO</h2>
 
@@ -95,7 +90,6 @@ open index.html
 
 
 <h2>CONTRIBUIÇÃO</h2>
-
 <h4>Contribuições são sempre bem-vindas! 🤝</h4>
 
 1. Faça um fork;
@@ -103,9 +97,8 @@ open index.html
 3. Faça commit das alterações (```git commit -m 'Adicionei algo incrível!'```);
 4. Faça push para a branch (```git push origin minha-feature```);
 5. Abra um Pull Request.
+6. 
 
-
-<br>
 
 ## <h2>📝 LICENÇA</h2>
 <p>Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.</p>
