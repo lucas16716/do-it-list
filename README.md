@@ -15,7 +15,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-## <h2>PROJETO</h2>
+<h2>PROJETO</h2>
 <h5>Acesse e confira o projeto em ação:</h5>
 
 * 🌐 <a href="https://lucas16716.github.io/do-it-list/">GitHub Pages
@@ -28,7 +28,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    </a>
  </div>
 
-## <h2>FUNCIONALIDADES</h2>
+h2>FUNCIONALIDADES</h2>
 
 * 🗒️ Adicionar tarefas: Registre metas do dia;
 * ✅ Marcar como concluído: Sinalize tarefas feitas com um clique;
@@ -42,7 +42,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * ✍🏻 Editar tarefas existentes;
 * 🎨 Animações para ações como adicionar ou remover tarefas.
 
-## <h2>TECNOLOGIAS E FERRAMENTAS</h2>
+<h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
 * HTML5: Estrutura semântica;
 * CSS3: Estilos e responsividade;
@@ -88,15 +88,15 @@ open index.html
 3. Faça commit das alterações (```git commit -m 'Adicionei algo incrível!'```);
 4. Faça push para a branch (```git push origin minha-feature```);
 5. Abra um Pull Request.
-6. 
 
+#
 
-## <h2>📝 LICENÇA</h2>
+<h2>📝 LICENÇA</h2>
 <p>Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.</p>
 
 
 
-## <h2>🧑🏻‍💻 AUTOR </h2>
+<h2>🧑🏻‍💻 AUTOR </h2>
 <p>Desenvolvido por <a href="https://www.linkedin.com/in/lucas-coutoti/">Lucas Couto<a/> com amor, dedicação e a busca por aprendizado constante.</p>
    
 
