@@ -30,16 +30,14 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    </a>
  </div>
 
- 
-<br>
+###
 
 ## <h2>FUNCIONALIDADES</h2>
 
 * 🗒️ Adicionar tarefas: Registre metas do dia;
 * ✅ Marcar como concluído: Sinalize tarefas feitas com um clique;
 * ❌ Remover tarefas: Exclua tarefas desnecessárias;
-* 🌓 Tema personalizável: Alterne entre temas com um clique;
-* 📲 Design responsivo: Adapta-se a telas de diferentes tamanhos.
+* 🌓 Tema personalizável: Alterne entre temas com um clique.
 
 <h4>Melhorias Futuras</h4>
 
