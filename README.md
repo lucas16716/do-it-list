@@ -28,7 +28,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    </a>
  </div>
 
-h2>FUNCIONALIDADES</h2>
+<h2>FUNCIONALIDADES</h2>
 
 * 🗒️ Adicionar tarefas: Registre metas do dia;
 * ✅ Marcar como concluído: Sinalize tarefas feitas com um clique;
