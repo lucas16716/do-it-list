@@ -15,7 +15,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-
 ## <h2>PROJETO</h2>
 <h5>Acesse e confira o projeto em ação:</h5>
 
@@ -28,7 +27,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    <img href="https://lucas16716.github.io/do-it-list/" src="./docs/src/img/dv/Temas.jpg" alt="imagem do site DO IT LIST. ✓">
    </a>
  </div>
-
 
 ## <h2>FUNCIONALIDADES</h2>
 
@@ -44,7 +42,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * ✍🏻 Editar tarefas existentes;
 * 🎨 Animações para ações como adicionar ou remover tarefas.
 
-
 ## <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
 * HTML5: Estrutura semântica;
@@ -53,9 +50,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * Git/GitHub: Controle de versão;
 * Canva: Logos e mockup.
 
-
-
-## <h2>ESTRUTURAÇÃO DO PROJETO</h2>
+<h2>ESTRUTURAÇÃO DO PROJETO</h2>
 
 ```bash
 📁 do-it-list
@@ -72,8 +67,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 └── LICENSE                      # Licença
 ```
 
-
-
 <h2>CLONAR O REPOSITÓRIO</h2>
 
 1. Clone este repositório no seu computador:
@@ -86,8 +79,6 @@ git clone https://github.com/seu-usuario/do-it-list.git
 cd do-it-list
 open index.html
 ```
-
-
 
 <h2>CONTRIBUIÇÃO</h2>
 <h4>Contribuições são sempre bem-vindas! 🤝</h4>
