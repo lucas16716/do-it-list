@@ -1,8 +1,13 @@
 <h1 align="center">DO IT LIST. ✅</h1>
 
-<p align="center">
-Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, CSS e JavaScript. Ele permite que os usuários adicionem, concluam e removam tarefas, proporcionando uma interface elegante e funcional.
-</p>
+<div>
+  
+[![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
+[![Status](https://img.shields.io/badge/Status-Desenvolvendo_Melhorias-blue)]()
+
+</div>
+
+> Esta é uma aplicação web simples de **lista de tarefas** desenvolvido com **HTML, CSS e JavaScript**. Ele permite que os usuários **adicionem, concluam e removam tarefas**, proporcionando uma interface elegante e funcional.
 
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -11,9 +16,6 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
   <a href="#estruturação-do-projeto">Guia Repositório</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
 
 <h2>PROJETO</h2>
 <h5>Acesse e confira o projeto em ação:</h5>
