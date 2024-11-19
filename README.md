@@ -3,7 +3,7 @@
 <div>
   
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Desenvolvendo_Melhorias-blue)]()
+[![Status](https://img.shields.io/badge/Status-Desenvolvendo_melhorias-blue)]()
 
 </div>
 
@@ -48,11 +48,11 @@
 
 <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
-* HTML5: Estrutura semântica;
-* CSS3: Estilos e responsividade;
-* JavaScript: Interatividade e lógica;
-* Git/GitHub: Controle de versão;
-* Canva: Logos e mockup.
+* **HTML5:** Estrutura semântica;
+* **CSS3:** Estilos e responsividade;
+* **JavaScript:** Interatividade e lógica;
+* **Git/GitHub:** Versionamento de código;
+* **Canva:** Logos e mockup.
 
 ---
 
@@ -77,7 +77,7 @@
 
 1. Clone este repositório no seu computador:
 ```
-git clone https://github.com/seu-usuario/do-it-list.git
+git clone https://github.com/lucas16716/do-it-list.git
 ```
 
 2. Abra o arquivo ```index.html``` no seu navegador:
@@ -89,11 +89,11 @@ open index.html
 <h2>CONTRIBUIÇÃO</h2>
 <h4>Contribuições são sempre bem-vindas! 🤝</h4>
 
-1. Faça um fork;
-2. Crie uma branch (```git checkout -b feature/minha-feature```);
-3. Faça commit das alterações (```git commit -m 'Adicionei algo incrível!'```);
-4. Faça push para a branch (```git push origin minha-feature```);
-5. Abra um Pull Request.
+1. Faça um *fork*;
+2. Crie uma nova *branch* (```git checkout -b minha-feature```);
+3. Faça *commit* das alterações (```git commit -m 'Adicionei algo incrível!'```);
+4. Faça *push* para a branch (```git push origin minha-feature```);
+5. Abra um *Pull Request*.
 
 ---
 
