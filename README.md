@@ -28,6 +28,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
    </a>
  </div>
 
+
 <h2>FUNCIONALIDADES</h2>
 
 * 🗒️ Adicionar tarefas: Registre metas do dia;
@@ -42,6 +43,7 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * ✍🏻 Editar tarefas existentes;
 * 🎨 Animações para ações como adicionar ou remover tarefas.
 
+
 <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
 * HTML5: Estrutura semântica;
@@ -49,6 +51,8 @@ Esta é uma aplicação web simples de lista de tarefas desenvolvido com HTML, C
 * JavaScript: Interatividade e lógica;
 * Git/GitHub: Controle de versão;
 * Canva: Logos e mockup.
+
+---
 
 <h2>ESTRUTURAÇÃO DO PROJETO</h2>
 
