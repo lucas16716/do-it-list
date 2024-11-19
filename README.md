@@ -89,10 +89,10 @@ open index.html
 4. Faça push para a branch (```git push origin minha-feature```);
 5. Abra um Pull Request.
 
-#
+---
 
 <h2>📝 LICENÇA</h2>
-<p>Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.</p>
+<p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
 
 
 
