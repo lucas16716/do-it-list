@@ -107,12 +107,19 @@ main .container-tasks .to-do-list {
   background: #117554;
   border-radius: 25px;
   margin: 0 35% 0 35%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding: 1%;
   box-sizing: border-box;
-  width: auto;
+  max-height: 225px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ffcc00, #117554); /* Gradiente */
+  border-radius: 6px;
 }
 
 footer {
@@ -248,6 +255,11 @@ body.theme-blue {
 
 .theme-blue .container-tasks .to-do-list {
   background: #ffcc00;
+}
+
+.theme-blue ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #193c6d, #ffcc00); /* Gradiente */
+  border-radius: 6px;
 }
 
 .theme-blue .task-item {
