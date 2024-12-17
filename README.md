@@ -25,7 +25,7 @@
 
 <div align="center">
    <a target="_blank" href="https://lucas16716.github.io/do-it-list/">
-   <img href="https://lucas16716.github.io/do-it-list/" src="./docs/src/img/dv/Temas.jpg" alt="imagem do site DO IT LIST. ✓">
+   <img href="https://lucas16716.github.io/do-it-list/" src="./docs/assets/img/dv/Temas.jpg" alt="imagem do site DO IT LIST. ✓">
    </a>
  </div>
 
