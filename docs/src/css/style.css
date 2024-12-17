@@ -225,7 +225,7 @@ body.theme-blue {
 }
 
 .theme-blue header img {
-  content: url("/docs/assets/img/logo-blue-theme.svg");
+  content: url("../../assets/img/logo-blue-theme.svg");
 }
 
 .theme-blue .container-add-tasks input {
