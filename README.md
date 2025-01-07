@@ -101,4 +101,4 @@ open index.html
 <p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
 
 <h2>🧑🏻‍💻 AUTOR </h2>
-<p>Desenvolvido por <a href="https://www.linkedin.com/in/lucas-coutoti/">Lucas Couto<a/> com amor, dedicação e a busca por aprendizado constante.</p>
+<p>Desenvolvido por <a href="https://lucaslinkverse.vercel.app/">Lucas Couto<a/> com amor, dedicação e a busca por aprendizado constante.</p>
