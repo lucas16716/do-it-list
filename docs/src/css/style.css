@@ -125,12 +125,14 @@ main .container-tasks .to-do-list {
 footer {
   background: #117554;
   height: 46px;
-  position: relative;
+  width: 100vw;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   user-select: none;
-  margin-top: 40px;
+  bottom: 0;
+  line-height: 0;
 }
 
 footer img {
@@ -139,8 +141,6 @@ footer img {
 }
 
 footer h5 {
-  margin-right: 34.5%;
-  max-width: 100%; /* Ajuste o valor conforme necessário */
   margin: auto;
   font-weight: normal;
 }
@@ -320,10 +320,6 @@ body.theme-blue {
     min-height: 67.5vh;
   }
 
-  footer {
-    margin-top: 50px;
-  }
-
   main .container-tasks .to-do-list {
     margin: 0 30%;
   }
@@ -331,7 +327,7 @@ body.theme-blue {
 
 @media (max-width: 768px) {
   main .container-tasks .to-do-list {
-    margin: 0 9%;
+    margin: 0 4%;
   }
 
   header img {
@@ -345,12 +341,18 @@ body.theme-blue {
   }
   main .container-add-tasks input {
     border-radius: 14px;
+    width: 85vw;
+    margin-bottom: 14px;
+  }
+
+  footer {
+    height: 55px;
+    line-height: 0.9;
   }
 
   footer h5 {
-    max-width: 50%;
-    margin: auto;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    margin: 10px;
   }
 }
 
