@@ -3,7 +3,7 @@
 <div>
   
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Desenvolvendo_melhorias-blue)]()
+[![Status](https://img.shields.io/badge/Status-Finalizado-blue)]()
 
 </div>
 
@@ -35,11 +35,11 @@
 - ✅ Marcar como concluído: Sinalize tarefas feitas com um clique;
 - ❌ Remover tarefas: Exclua tarefas desnecessárias;
 - 🌓 Tema personalizável: Alterne entre temas com um clique;
+- 📲 Aplicação responsiva para otimização em todos os tipos de dispositivos;
 - ↕️ Barra de rolagem: adicionado no contêiner principal para melhor experiência do usuário na gestão de múltiplas tarefas.
 
 <h4>Melhorias Futuras</h4>
 
-- 📲 Design responsivo em desenvolvimento;
 - 🗃️ Histórico de tarefas concluídas por data;
 - ✍🏻 Editar tarefas existentes;
 - 🎨 Animações para ações como adicionar ou remover tarefas.
