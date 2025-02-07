@@ -21,6 +21,7 @@
 
 - 🌐 <a href="https://lucas16716.github.io/do-it-list/">GitHub Pages
 - 📹 <a href="https://drive.google.com/file/d/1JGVkyok3uzFnhwoHf722ZwvPH5TU-90_/view?usp=sharing">Vídeo do Projeto
+- 📲 <a href="https://drive.google.com/file/d/1HdBPRUDx-HVITZc50aybMMn8lzS_cRQP/view">Vídeo da responsividade
 - 🖼️ Imagem do Projeto:
 
 <div align="center">
