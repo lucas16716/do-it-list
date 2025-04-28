@@ -118,7 +118,7 @@ main .container-tasks .to-do-list {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffcc00;
+  background: linear-gradient(180deg, #ffcc00, #117554); /* Gradiente */
   border-radius: 2px;
 }
 
@@ -258,7 +258,7 @@ body.theme-blue {
 }
 
 .theme-blue ::-webkit-scrollbar-thumb {
-  background: #193c6d; /* Gradiente */
+  background: linear-gradient(180deg, #193c6d, #ffcc00); /* Gradiente */
   border-radius: 2px;
 }
 
