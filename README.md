@@ -7,7 +7,7 @@
 
 </div>
 
-> Esta é uma aplicação web simples de **lista de tarefas** desenvolvido com **HTML, CSS e JavaScript**. Ele permite que os usuários **adicionem, concluam e removam tarefas**, proporcionando uma interface elegante e funcional.
+> Aplicação web clean e **responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** desenvolvida com **HTML, CSS e JavaScript**, que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
 
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -43,12 +43,12 @@
 
 - 🗃️ Histórico de tarefas concluídas por data;
 - ✍🏻 Editar tarefas existentes;
-- 🎨 Animações para ações como adicionar ou remover tarefas.
+- 🎨 Animações para ações como adicionar ou finalizar tarefas.
 
 <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
 - **HTML5:** Estrutura semântica;
-- **CSS3:** Estilos e responsividade;
+- **CSS:** Estilos e responsividade;
 - **JavaScript:** Interatividade e lógica;
 - **Git/GitHub:** Versionamento de código;
 - **Canva:** Logos e mockup.
@@ -102,4 +102,4 @@ open index.html
 <p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
 
 <h2>🧑🏻‍💻 AUTOR </h2>
-<p>Desenvolvido por <a href="https://lucaslinkverse.vercel.app/">Lucas Couto<a/> com amor, dedicação e a busca por aprendizado constante.</p>
+<p>Desenvolvido por <a href="https://lucaslinkverse.vercel.app/">Lucas Code<a/>.</p>
