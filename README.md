@@ -102,4 +102,4 @@ open index.html
 <p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
 
 <h2>🧑🏻‍💻 AUTOR </h2>
-<p>Desenvolvido por <a href="https://lucaslinkverse.vercel.app/">Lucas Code<a/>.</p>
+<p>Desenvolvido por <a href="https://bio.site/lucascode">Lucas Code<a/>.</p>
