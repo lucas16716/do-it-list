@@ -44,7 +44,7 @@ Aplicação web clean e **responsiva**, com identidade visual inspirada no conce
 - **JavaScript (ES6+) →** Interatividade (CRUD de tarefas, troca de tema), encapsulado via IIFE;
 - **Git/GitHub →** Controle de versionamento e hospedagem do código-fonte;
 - **Canva →** Criação de logos e mockup;
-- **Vercel / GitHub Pages →** Plataforma de deploy contínuo.
+- **GitHub Pages →** Plataforma de deploy contínuo.
 
 ---
 
