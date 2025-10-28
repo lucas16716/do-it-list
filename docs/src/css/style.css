@@ -1,45 +1,89 @@
-/* ESTILO OFICIAL*/
+/* --- 1. CONFIGURAÇÕES GLOBAIS & VARIÁVEIS --- */
+:root {
+  /* Paleta de Cores Base */
+  --color-yellow: #ffcc00;
+  --color-green: #117554;
+  --color-blue: #193c6d;
+  --color-black: black;
+  --color-white: #fff;
+
+  /* Tema Amarelo (Padrão) */
+  --theme-yellow-bg: var(--color-yellow);
+  --theme-yellow-primary: var(--color-green);
+  --theme-yellow-shadow: var(--color-green);
+  --theme-yellow-input-bg: #deefe0;
+  --theme-yellow-input-bg-hover: #c8e6cc;
+  --theme-yellow-input-border: var(--color-green);
+  --theme-yellow-placeholder: #a7a7a7;
+  --theme-yellow-footer-bg: var(--color-green);
+  --theme-yellow-footer-link: var(--color-black);
+  --theme-yellow-toggle-bg: var(--color-blue);
+  --theme-yellow-toggle-shadow: var(--color-blue);
+
+  /* Tema Azul */
+  --theme-blue-bg: var(--color-blue);
+  --theme-blue-primary: var(--color-yellow);
+  --theme-blue-shadow: var(--color-yellow);
+  --theme-blue-input-bg: #f9e9c3;
+  --theme-blue-input-bg-hover: #ffe2a0;
+  --theme-blue-input-border: var(--color-yellow);
+  --theme-blue-placeholder: #858585;
+  --theme-blue-footer-bg: rgba(0, 0, 0, 0.718);
+  --theme-blue-footer-link: whitesmoke;
+  --theme-blue-toggle-bg: var(--color-yellow);
+  --theme-blue-toggle-shadow: var(--color-yellow);
+
+  /* Componentes Task */
+  --task-item-bg: #deefe0;
+  --task-item-bg-hover: #c8e6cc;
+  --task-item-text: var(--color-black);
+  --task-complete-bg: #1175549a;
+  --task-complete-shadow: #117554;
+  --task-delete-bg: #d9544fc0;
+  --task-delete-shadow: #d9544f;
+}
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
+/* --- 2. LAYOUT PRINCIPAL (HEADER, MAIN, FOOTER) --- */
 body.theme-yellow {
-  background: #ffcc00;
+  background: var(--theme-yellow-bg);
   font-family: "Dongle";
   font-size: 28px;
 }
 
-header {
+.site-header {
   text-align: center;
 }
 
-header .cores-fundo {
+.site-header .cores-fundo {
   text-align: right;
 }
 
-header .theme-toggle {
+.site-header .theme-toggle {
   display: inline-block;
-  border: 0.5px solid black;
+  border: 0.5px solid var(--color-black);
   margin: 10px 10px 0 0;
-  background-color: #193c6d;
+  background-color: var(--theme-yellow-toggle-bg);
   border-radius: 50%;
   width: 33px;
   height: 33px;
 }
 
-header .theme-toggle:hover {
-  box-shadow: #193c6d 0 0 15px;
+.site-header .theme-toggle:hover {
+  box-shadow: var(--theme-yellow-toggle-shadow) 0 0 15px;
   transform: scale(1.1);
 }
 
-header img {
-  margin: 0;
-  max-width: 37%;
+.site-header img {
+  max-width: 32%;
 }
 
-header img:hover {
-  transform: scale(1.1);
+.site-header img:hover {
+  transform: scale(1.05);
   transition-duration: 0.3s;
 }
 
@@ -49,7 +93,7 @@ header img:hover {
   min-height: 51vh;
 }
 
-main {
+.main-content {
   text-align: center;
   margin-left: 3%;
   margin-right: 3%;
@@ -57,54 +101,84 @@ main {
   flex-grow: 1;
 }
 
-main .container-add-tasks {
+.site-footer {
+  background: var(--theme-yellow-footer-bg);
+  height: 52px;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  bottom: 0;
+  line-height: 0;
+}
+
+.site-footer img {
+  max-width: 100%;
+  margin-left: 1.5%;
+}
+
+.site-footer h5 {
+  margin: auto;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.site-footer h5 a {
+  color: var(--theme-yellow-footer-link);
+}
+
+/* --- 3. COMPONENTES (FORM, TASK LIST, GITHUB) --- */
+.main-content .container-add-tasks {
   padding: 4px 0 15px 0;
 }
 
-.container-add-tasks input {
+.task-form .task-form__input {
   height: 36.2px;
   width: 315px;
-  border: 1.5px solid #117554;
+  border: 1.5px solid var(--theme-yellow-input-border);
   outline: none;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
-  background: #deefe0;
+  background: var(--theme-yellow-input-bg);
   padding: 5px;
-  font-size: 28px;
+  font-size: 25px;
   font-family: "Dongle";
 }
 
 ::placeholder {
-  color: #a7a7a7;
+  color: var(--theme-yellow-placeholder);
 }
 
-.container-add-tasks input:hover {
-  background-color: #c8e6cc;
+.task-form .task-form__input:hover {
+  background-color: var(--theme-yellow-input-bg-hover);
   transition-duration: 0.3s;
 }
 
-.container-add-tasks button {
-  color: black;
-  background: #117554;
+.task-form .task-form__submit {
+  color: var(--color-black);
+  background: var(--theme-yellow-primary);
   height: 48px;
   width: 99px;
   margin: -6px;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
-  border: 1.5px solid #117554;
+  border: 1.5px solid var(--theme-yellow-input-border);
   outline: none;
   cursor: pointer;
   font-family: "Dongle";
   font-size: 25px;
 }
 
-.container-add-tasks button:hover {
-  box-shadow: #117554 0 0 6px;
+.task-form .task-form__submit:hover {
+  box-shadow: var(--theme-yellow-shadow) 0 0 6px;
   transition-duration: 0.2s;
 }
 
-main .container-tasks .to-do-list {
-  background: #117554;
+.main-content .container-tasks .task-list.to-do-list {
+  background: var(--theme-yellow-primary);
   border-radius: 25px;
   margin: 0 35% 0 35%;
   padding: 1%;
@@ -118,35 +192,8 @@ main .container-tasks .to-do-list {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #ffcc00, #117554); /* Gradiente */
+  background: linear-gradient(180deg, var(--color-yellow), var(--color-green));
   border-radius: 2px;
-}
-
-footer {
-  background: #117554;
-  height: 46px;
-  width: 100vw;
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  user-select: none;
-  bottom: 0;
-  line-height: 0;
-}
-
-footer img {
-  max-width: 100%;
-  margin-left: 1.5%;
-}
-
-footer h5 {
-  margin: auto;
-  font-weight: normal;
-}
-
-footer h5 a {
-  color: black;
 }
 
 /* ESTILO DAS TASKS ADICIONADAS*/
@@ -154,27 +201,27 @@ footer h5 a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #deefe0;
+  background-color: var(--task-item-bg);
   border-radius: 25px;
   padding: 5px 15px;
   margin: 12px;
   font-size: 26px;
-  color: black;
+  color: var(--task-item-text);
   transition: background 0.3s;
 }
 
 .task-item:hover {
-  background-color: #c8e6cc;
+  background-color: var(--task-item-bg-hover);
 }
 
 .task-text {
-  flex: 1; /* Ocupa o espaço disponível, mantendo os botões alinhados à direita */
+  flex: 1;
 }
 
 .task-complete,
 .task-delete {
   margin-left: 8px;
-  color: black;
+  color: var(--color-black);
   border: none;
   border-radius: 50%;
   font-size: 20px;
@@ -184,175 +231,172 @@ footer h5 a {
 .task-complete:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
-  box-shadow: #117554 0 0 3px;
+  box-shadow: var(--task-complete-shadow) 0 0 3px;
 }
 
 .task-delete:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
-  box-shadow: #d9544f 0 0 3px;
+  box-shadow: var(--task-delete-shadow) 0 0 3px;
 }
 
 .task-complete {
   padding: 2.7px 8.6px 2.7px 8.6px;
-  background: #1175549a;
+  background: var(--task-complete-bg);
   font-weight: bold;
 }
 
 .task-delete {
   padding: 4.5px 10px 4.5px 10px;
-  background-color: #d9544fc0;
+  background-color: var(--task-delete-bg);
 }
 
 .completed {
   text-decoration: line-through;
 }
 
-/* ESTILO PARA O TEMA AZUL */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+/* --- 4. TEMAS (BLUE) --- */
 body.theme-blue {
-  background-color: #193c6d;
+  background-color: var(--theme-blue-bg);
   font-family: "Dongle";
   font-size: 28px;
 }
 
 .theme-blue .theme-toggle {
-  background-color: #ffcc00; /* Amarelo para indicar o outro tema */
+  background-color: var(--theme-blue-toggle-bg);
 }
 
 .theme-blue .theme-toggle:hover {
-  box-shadow: #ffcc00 0 0 15px;
+  box-shadow: var(--theme-blue-toggle-shadow) 0 0 15px;
   transform: scale(1.1);
 }
 
-.theme-blue header img {
+.theme-blue .site-header img {
   content: url("../../assets/img/logo-blue-theme.svg");
 }
 
-.theme-blue .container-add-tasks input {
-  background: #f9e9c3;
-  color: black;
-  border-color: #ffcc00;
+.theme-blue .task-form .task-form__input {
+  background: var(--theme-blue-input-bg);
+  color: var(--color-black);
+  border-color: var(--theme-blue-input-border);
 }
 
-.theme-blue .container-add-tasks input:hover {
-  background-color: #ffe2a0;
+.theme-blue .task-form .task-form__input:hover {
+  background-color: var(--theme-blue-input-bg-hover);
 }
 
 .theme-blue .container-add-tasks ::placeholder {
-  color: #858585;
+  color: var(--theme-blue-placeholder);
 }
 
-.theme-blue .container-add-tasks button {
-  background: #ffcc00;
-  color: black;
-  border: 1.5px solid #ffcc00;
+.theme-blue .task-form .task-form__submit {
+  background: var(--theme-blue-primary);
+  color: var(--color-black);
+  border: 1.5px solid var(--theme-blue-input-border);
 }
 
-.theme-blue .container-add-tasks button:hover {
-  box-shadow: #ffcc00 0 0 6px;
+.theme-blue .task-form .task-form__submit:hover {
+  box-shadow: var(--theme-blue-shadow) 0 0 6px;
   transition-duration: 0.2s;
 }
 
-.theme-blue .container-tasks .to-do-list {
-  background: #ffcc00;
+.theme-blue .main-content .container-tasks .task-list.to-do-list {
+  background: var(--theme-blue-primary);
 }
 
 .theme-blue ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #193c6d, #ffcc00); /* Gradiente */
+  background: linear-gradient(180deg, var(--color-blue), var(--color-yellow));
   border-radius: 2px;
 }
 
 .theme-blue .task-item {
   border: none;
-  background-color: #f9e9c3;
+  background-color: var(--theme-blue-input-bg);
 }
 
 .theme-blue .task-item:hover {
-  background-color: #ffe2a0; /* Um leve verde ao passar o mouse */
+  background-color: var(--theme-blue-input-bg-hover);
 }
 
-.theme-blue footer {
-  background: rgba(0, 0, 0, 0.718);
+.theme-blue .site-footer {
+  background: var(--theme-blue-footer-bg);
 }
 
-.theme-blue footer h5 {
-  color: whitesmoke;
+.theme-blue .site-footer h5 {
+  color: var(--theme-blue-footer-link);
 }
 
-.theme-blue footer h5 a {
-  color: whitesmoke;
+.theme-blue .site-footer h5 a {
+  color: var(--theme-blue-footer-link);
 }
 
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
+/* --- 5. ANIMAÇÕES --- */
 @keyframes octocat-wave {
   0% {
     transform: rotate(0deg);
   }
-
   20% {
     transform: rotate(-25deg);
   }
-
   40% {
     transform: rotate(10deg);
   }
-
   60% {
     transform: rotate(-25deg);
   }
-
   80% {
     transform: rotate(10deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
 }
 
-/* RESPONSIVIDADE */
-
+/* --- 6. RESPONSIVIDADE --- */
 @media (max-width: 1500px) {
   .wrapper {
     min-height: 67.5vh;
   }
 
-  main .container-tasks .to-do-list {
+  .main-content .container-tasks .task-list.to-do-list {
     margin: 0 30%;
   }
 }
 
 @media (max-width: 768px) {
-  main .container-tasks .to-do-list {
+  .main-content .container-tasks .task-list.to-do-list {
     margin: 0 4%;
   }
 
-  header img {
-    max-width: 60%;
+  .site-header img {
+    max-width: 70%;
   }
 }
 
 @media (max-width: 480px) {
-  main .container-add-tasks button {
+  .task-form .task-form__submit {
     border-radius: 14px;
   }
-  main .container-add-tasks input {
+  .task-form .task-form__input {
     border-radius: 14px;
     width: 85vw;
     margin-bottom: 14px;
   }
 
-  footer {
+  .site-footer {
     height: 55px;
     line-height: 0.9;
   }
 
-  footer h5 {
-    font-size: 1.1rem;
-    margin: 10px;
+  .site-footer h5 {
+    font-size: 0.65rem;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.2;
   }
 }
 

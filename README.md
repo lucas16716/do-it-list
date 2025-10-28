@@ -3,11 +3,10 @@
 <div>
   
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Finalizado-blue)]()
+[![Status](https://img.shields.io/badge/Status-Finalizado-blue)]()&nbsp;&nbsp;
+[![Deploy Status](https://img.shields.io/badge/Deploy-GitHubPages-black)](https://lucas16716.github.io/do-it-list/)
 
 </div>
-
-> Aplicação web clean e **responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** desenvolvida com **HTML, CSS e JavaScript**, que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
 
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,18 +16,11 @@
 </p>
 
 <h2>PROJETO</h2>
-<h5>Acesse e confira o projeto em ação:</h5>
 
-- 🌐 <a href="https://lucas16716.github.io/do-it-list/">GitHub Pages
-- 📹 <a href="https://drive.google.com/file/d/1JGVkyok3uzFnhwoHf722ZwvPH5TU-90_/view?usp=sharing">Vídeo do Projeto
-- 📲 <a href="https://drive.google.com/file/d/1HdBPRUDx-HVITZc50aybMMn8lzS_cRQP/view">Vídeo da responsividade
-- 🖼️ Imagem do Projeto:
+Aplicação web clean e **responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** desenvolvida com **HTML, CSS e JavaScript**, que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
 
-<div align="center">
-   <a target="_blank" href="https://lucas16716.github.io/do-it-list/">
-   <img href="https://lucas16716.github.io/do-it-list/" src="./docs/assets/dv/Temas.jpg" alt="imagem do site DO IT LIST. ✓">
-   </a>
- </div>
+- 🌐 <a href="https://lucas16716.github.io/do-it-list/">Acesse o site (GitHub Pages)
+- 📹 <a href="https://www.instagram.com/p/DFlsQsCxGhY/">Vídeo do Projeto (Instagram)
 
 <h2>FUNCIONALIDADES</h2>
 
@@ -42,16 +34,17 @@
 <h4>Melhorias Futuras</h4>
 
 - 🗃️ Histórico de tarefas concluídas por data;
-- ✍🏻 Editar tarefas existentes;
-- 🎨 Animações para ações como adicionar ou finalizar tarefas.
+- ✍🏻 Funcionalidade para editar tarefas existentes;
+- 🎨 Animações mais elaboradas para adicionar ou finalizar tarefas.
 
 <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 
-- **HTML5:** Estrutura semântica;
-- **CSS:** Estilos e responsividade;
-- **JavaScript:** Interatividade e lógica;
-- **Git/GitHub:** Versionamento de código;
-- **Canva:** Logos e mockup.
+- **HTML5 →** Estrutura semântica e acessível;
+- **CSS3 →** Estilos responsivos, Temas (com Variáveis CSS) e organização BEM;
+- **JavaScript (ES6+) →** Interatividade (CRUD de tarefas, troca de tema), encapsulado via IIFE;
+- **Git/GitHub →** Controle de versionamento e hospedagem do código-fonte;
+- **Canva →** Criação de logos e mockup;
+- **Vercel / GitHub Pages →** Plataforma de deploy contínuo.
 
 ---
 
@@ -102,4 +95,4 @@ open index.html
 <p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
 
 <h2>🧑🏻‍💻 AUTOR </h2>
-<p>Desenvolvido por <a href="https://bio.site/lucascode">Lucas Code<a/>.</p>
+<p>Desenvolvido por <a href="https://bio.site/lucascode">Lucas Code</a>.</p>
