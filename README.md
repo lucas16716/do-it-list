@@ -17,7 +17,7 @@
 
 <h2>PROJETO</h2>
 
-Aplicação web clean e **responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** desenvolvida com **HTML, CSS e JavaScript**, que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
+**Aplicação web clean e responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
 
 - 🌐 <a href="https://lucas16716.github.io/do-it-list/">Acesse o site (GitHub Pages)
 - 📹 <a href="https://www.instagram.com/p/DFlsQsCxGhY/">Vídeo do Projeto (Instagram)
